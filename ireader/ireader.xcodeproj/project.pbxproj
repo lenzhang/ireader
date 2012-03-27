@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		303967421521712500796B7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303967411521712500796B7A /* UIKit.framework */; };
+		303967441521712500796B7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303967431521712500796B7A /* Foundation.framework */; };
+		303967461521712500796B7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303967451521712500796B7A /* CoreGraphics.framework */; };
+		3039674C1521712500796B7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3039674A1521712500796B7A /* InfoPlist.strings */; };
+		3039674E1521712500796B7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3039674D1521712500796B7A /* main.m */; };
+		303967521521712500796B7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 303967511521712500796B7A /* AppDelegate.m */; };
+		303967551521712500796B7A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303967531521712500796B7A /* MainStoryboard.storyboard */; };
+		303967581521712500796B7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303967571521712500796B7A /* ViewController.m */; };
+		303967601521712500796B7A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3039675F1521712500796B7A /* SenTestingKit.framework */; };
+		303967611521712500796B7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303967411521712500796B7A /* UIKit.framework */; };
+		303967621521712500796B7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303967431521712500796B7A /* Foundation.framework */; };
+		3039676A1521712500796B7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 303967681521712500796B7A /* InfoPlist.strings */; };
+		3039676D1521712500796B7A /* ireaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3039676C1521712500796B7A /* ireaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		303967631521712500796B7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 303967341521712500796B7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3039673C1521712500796B7A;
+			remoteInfo = ireader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3039673D1521712500796B7A /* ireader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ireader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303967411521712500796B7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		303967431521712500796B7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		303967451521712500796B7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		303967491521712500796B7A /* ireader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ireader-Info.plist"; sourceTree = "<group>"; };
+		3039674B1521712500796B7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3039674D1521712500796B7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3039674F1521712500796B7A /* ireader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ireader-Prefix.pch"; sourceTree = "<group>"; };
+		303967501521712500796B7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		303967511521712500796B7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		303967541521712500796B7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		303967561521712500796B7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		303967571521712500796B7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3039675E1521712500796B7A /* ireaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ireaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3039675F1521712500796B7A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		303967671521712500796B7A /* ireaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ireaderTests-Info.plist"; sourceTree = "<group>"; };
+		303967691521712500796B7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3039676B1521712500796B7A /* ireaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ireaderTests.h; sourceTree = "<group>"; };
+		3039676C1521712500796B7A /* ireaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ireaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3039673A1521712500796B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303967421521712500796B7A /* UIKit.framework in Frameworks */,
+				303967441521712500796B7A /* Foundation.framework in Frameworks */,
+				303967461521712500796B7A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3039675A1521712500796B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303967601521712500796B7A /* SenTestingKit.framework in Frameworks */,
+				303967611521712500796B7A /* UIKit.framework in Frameworks */,
+				303967621521712500796B7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303967321521712500796B7A = {
+			isa = PBXGroup;
+			children = (
+				303967471521712500796B7A /* ireader */,
+				303967651521712500796B7A /* ireaderTests */,
+				303967401521712500796B7A /* Frameworks */,
+				3039673E1521712500796B7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3039673E1521712500796B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3039673D1521712500796B7A /* ireader.app */,
+				3039675E1521712500796B7A /* ireaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303967401521712500796B7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				303967411521712500796B7A /* UIKit.framework */,
+				303967431521712500796B7A /* Foundation.framework */,
+				303967451521712500796B7A /* CoreGraphics.framework */,
+				3039675F1521712500796B7A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		303967471521712500796B7A /* ireader */ = {
+			isa = PBXGroup;
+			children = (
+				303967501521712500796B7A /* AppDelegate.h */,
+				303967511521712500796B7A /* AppDelegate.m */,
+				303967531521712500796B7A /* MainStoryboard.storyboard */,
+				303967561521712500796B7A /* ViewController.h */,
+				303967571521712500796B7A /* ViewController.m */,
+				303967481521712500796B7A /* Supporting Files */,
+			);
+			path = ireader;
+			sourceTree = "<group>";
+		};
+		303967481521712500796B7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				303967491521712500796B7A /* ireader-Info.plist */,
+				3039674A1521712500796B7A /* InfoPlist.strings */,
+				3039674D1521712500796B7A /* main.m */,
+				3039674F1521712500796B7A /* ireader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		303967651521712500796B7A /* ireaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3039676B1521712500796B7A /* ireaderTests.h */,
+				3039676C1521712500796B7A /* ireaderTests.m */,
+				303967661521712500796B7A /* Supporting Files */,
+			);
+			path = ireaderTests;
+			sourceTree = "<group>";
+		};
+		303967661521712500796B7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				303967671521712500796B7A /* ireaderTests-Info.plist */,
+				303967681521712500796B7A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3039673C1521712500796B7A /* ireader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303967701521712500796B7A /* Build configuration list for PBXNativeTarget "ireader" */;
+			buildPhases = (
+				303967391521712500796B7A /* Sources */,
+				3039673A1521712500796B7A /* Frameworks */,
+				3039673B1521712500796B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ireader;
+			productName = ireader;
+			productReference = 3039673D1521712500796B7A /* ireader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3039675D1521712500796B7A /* ireaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303967731521712500796B7A /* Build configuration list for PBXNativeTarget "ireaderTests" */;
+			buildPhases = (
+				303967591521712500796B7A /* Sources */,
+				3039675A1521712500796B7A /* Frameworks */,
+				3039675B1521712500796B7A /* Resources */,
+				3039675C1521712500796B7A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303967641521712500796B7A /* PBXTargetDependency */,
+			);
+			name = ireaderTests;
+			productName = ireaderTests;
+			productReference = 3039675E1521712500796B7A /* ireaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303967341521712500796B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 303967371521712500796B7A /* Build configuration list for PBXProject "ireader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 303967321521712500796B7A;
+			productRefGroup = 3039673E1521712500796B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3039673C1521712500796B7A /* ireader */,
+				3039675D1521712500796B7A /* ireaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3039673B1521712500796B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3039674C1521712500796B7A /* InfoPlist.strings in Resources */,
+				303967551521712500796B7A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3039675B1521712500796B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3039676A1521712500796B7A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3039675C1521712500796B7A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303967391521712500796B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3039674E1521712500796B7A /* main.m in Sources */,
+				303967521521712500796B7A /* AppDelegate.m in Sources */,
+				303967581521712500796B7A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303967591521712500796B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3039676D1521712500796B7A /* ireaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		303967641521712500796B7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3039673C1521712500796B7A /* ireader */;
+			targetProxy = 303967631521712500796B7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3039674A1521712500796B7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3039674B1521712500796B7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		303967531521712500796B7A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303967541521712500796B7A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		303967681521712500796B7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303967691521712500796B7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3039676E1521712500796B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3039676F1521712500796B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303967711521712500796B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ireader/ireader-Prefix.pch";
+				INFOPLIST_FILE = "ireader/ireader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		303967721521712500796B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ireader/ireader-Prefix.pch";
+				INFOPLIST_FILE = "ireader/ireader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		303967741521712500796B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ireader.app/ireader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ireader/ireader-Prefix.pch";
+				INFOPLIST_FILE = "ireaderTests/ireaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		303967751521712500796B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ireader.app/ireader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ireader/ireader-Prefix.pch";
+				INFOPLIST_FILE = "ireaderTests/ireaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303967371521712500796B7A /* Build configuration list for PBXProject "ireader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3039676E1521712500796B7A /* Debug */,
+				3039676F1521712500796B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303967701521712500796B7A /* Build configuration list for PBXNativeTarget "ireader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303967711521712500796B7A /* Debug */,
+				303967721521712500796B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		303967731521712500796B7A /* Build configuration list for PBXNativeTarget "ireaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303967741521712500796B7A /* Debug */,
+				303967751521712500796B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 303967341521712500796B7A /* Project object */;
+}
